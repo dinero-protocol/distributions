@@ -30,11 +30,11 @@ Note: ETH rewards are represented by the [Redacted Gnosis Multisig Address](http
 
 ```
 .
-└── protocol-v2           # Redacted v2
-    ├── latest            # Aggregated distribution data for all epochs
-    │   ├── btrfly.json   # BTRFLY distribution data
-    │   └── eth.json      # ETH distribution data
-    └── 1674691200        # Distribution at epoch timestamp (UTC)
-        ├── btrfly.json
-        └── eth.json
+└── protocol-v2             # Redacted v2
+    ├── latest              # Aggregated distribution data for all epochs
+    │   ├── btrfly.json     # BTRFLY distribution data
+    │   └── eth.json        # ETH distribution data
+    └── 1674691200          # Distribution epoch timestamp (UTC)
+        ├── 0x...e5da.json  # BTRFLY distribution data
+        └── 0x...077e.json  # ETH distribution data
 ```
