@@ -25,16 +25,19 @@ Note: ETH rewards are represented by the [Redacted Gnosis Multisig Address](http
 
 - BTRFLY: `0xc55126051b22ebb829d00368f4b12bde432de5da`
 - ETH: `0xa52fd396891e7a74b641a2cb1a6999fcf56b077e`
+- WETH: `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2`
 
 ### Directory structure
 
 ```
 .
-└── protocol-v2           # Redacted v2
-    ├── latest            # Aggregated distribution data for all epochs
-    │   ├── btrfly.json   # BTRFLY distribution data
-    │   └── eth.json      # ETH distribution data
-    └── 1674691200        # Distribution at epoch timestamp (UTC)
-        ├── btrfly.json
-        └── eth.json
+└── protocol-v2             # Redacted v2
+    ├── latest              # Aggregated distribution data for all epochs
+    │   ├── btrfly.json     # BTRFLY distribution data
+    │   └── eth.json        # ETH distribution data
+    │   └── weth.json       # WETH distribution data
+    └── 1674691200          # Distribution epoch timestamp (UTC)
+        ├── 0x...e5da.json  # BTRFLY distribution data
+        └── 0x...077e.json  # ETH distribution data
+        └── 0x...6cc2.json  # WETH distribution data
 ```
