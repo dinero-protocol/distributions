@@ -22,10 +22,9 @@ Reward Distributor (Optimism): [`0x0b139682D5C9Df3e735063f46Fb98c689540Cf3A`](ht
 
 ### Token mappings
 
-Note: ETH rewards are represented by the [Redacted Gnosis Multisig Address](https://etherscan.io/address/0xa52fd396891e7a74b641a2cb1a6999fcf56b077e).
+Note: ETH rewards are represented by the [BribeVault](https://etherscan.io/address/0x9DDb2da7Dd76612e0df237B89AF2CF4413733212).
 
-- BTRFLY: `0xc55126051b22ebb829d00368f4b12bde432de5da`
-- ETH: `0xa52fd396891e7a74b641a2cb1a6999fcf56b077e`
+- ETH: `0x9DDb2da7Dd76612e0df237B89AF2CF4413733212`
 
 ### Directory structure
 
