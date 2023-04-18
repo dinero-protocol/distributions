@@ -9,20 +9,20 @@ Reward Distributor (Optimism): [`0x0b139682D5C9Df3e735063f46Fb98c689540Cf3A`](ht
 >
 > In order to calculate the _current_ rewards (amount of rewards that have not yet been claimed), you must subtract the claimed rewards from the total rewards.
 >
-> You may query the [RewardDistributor](https://etherscan.io/address/0x0b139682d5c9df3e735063f46fb98c689540cf3a) for previous claims using the `claimed` method and passing in `rewardTokenAddress` and `walletAddress` as parameters, eg:
+> You may query the [RewardDistributor](https://etherscan.io/address/0x0b139682d5c9df3e735063f46fb98c689540cf3a) for previous claims using the `claimed` method and passing in the `rewardIdentifier` (keccak256 hash of `PROTOCOL` + `rewardTokenAddress`) and `walletAddress` as parameters, eg:
 >
 > ```ts
 > const amount = await contract.claimed(
->   '0xRewardToken', // Reward token
+>   '0x0000000000000000000000000000000000000000', // Reward Identifier
 >   '0x0000000000000000000000000000000000000000' // Wallet address
 > )
 > ```
 >
-> You would then subtract this amount from the total contained in `./latest/0xRewardToken.json`
+> You would then subtract this amount from the total contained in `./latest/market/network/0xRewardToken.json`
 
 ### Token mappings
 
-Note: ETH rewards are represented by the [BribeVault](https://etherscan.io/address/0x9DDb2da7Dd76612e0df237B89AF2CF4413733212).
+Note: ETH rewards are represented by the [BribeVault](https://etherscan.io/address/0x9DDb2da7Dd76612e0df237B89AF2CF4413733212) on Ethereum and Optimism.
 
 - ETH: `0x9DDb2da7Dd76612e0df237B89AF2CF4413733212`
 

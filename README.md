@@ -5,6 +5,7 @@ Raw distribution data for Redacted ecosystem
 ## Distributions
 
 - [Redacted v2](./protocol-v2) data for ETH and BTRFLY epoch rewards
+- [Hidden Hand](./hidden-hand) data for Hidden Hand rewards
 
 ## Contact
 
