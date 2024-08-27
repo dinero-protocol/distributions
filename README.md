@@ -1,13 +1,19 @@
-<img width="100%" alt="image" src="https://user-images.githubusercontent.com/1539088/178902027-3ff9d4c1-88a9-4c15-918c-0ba611315ecd.png">
+<div align="center">
+<p>
+  <a href="https://x.com/dinero_xyz" target="_blank">
+    <img alt="Twitter: Dinero" width="250" src="https://pbs.twimg.com/profile_images/1813945047093592064/vNgvmosz_400x400.png" />
+  </a>
+</p>
+</div>
 
-Raw distribution data for Redacted ecosystem
+Raw distribution data for Dinero Protocol ecosystem
 
 ## Distributions
 
-- [Redacted v2](./protocol-v2) data for WETH and BTRFLY epoch rewards
 - [Hidden Hand](./hidden-hand) data for Hidden Hand rewards
+- [Redacted v2](./protocol-v2) data for WETH and BTRFLY epoch rewards (Notice: [Deprecated](https://x.com/dinero_xyz/status/1815456582811218328))
 
 ## Contact
 
-- [Discord](https://discord.com/invite/RwghRM6Shf)
-- [Twitter](https://twitter.com/redactedcartel)
+- [Discord](https://discord.gg/dineroxyz)
+- [Twitter](https://twitter.com/dinero_xyz)
